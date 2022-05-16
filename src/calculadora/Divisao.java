@@ -1,8 +1,8 @@
 package calculadora;
 
-public class Divisao {
+public class Divisao extends Operacoes{
     
-    public void resultado(double n1, double n2){
-        System.out.println(n1/n2);
+    public double resultado(double n1, double n2){
+        return (n1/n2);
     }
 }

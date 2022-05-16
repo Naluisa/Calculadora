@@ -1,8 +1,9 @@
 package calculadora;
 
-public class Soma {
+public class Soma extends Operacoes{
     
-    public void resultado(double n1, double n2){
-        System.out.println(n1 + n2);
+    @Override
+    public double resultado (double n1, double n2) {
+        return (n1 + n2);
     }
 }
